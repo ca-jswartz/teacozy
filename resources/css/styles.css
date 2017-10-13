@@ -1,6 +1,6 @@
 /* Universal Styles */
 * {
-	font-family: Helvetica, sans-serif;
+	font-family: Helvetica, Arial, sans-serif;
 	font-size: 22px;
 	color: seashell;
 	background-color: black;
@@ -8,11 +8,97 @@
 	text-align: center;
 }
 
+h2,
+h4 {
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	margin: 0;
+}
+
 /* Header */ 
+
+header {
+	display: flex;
+	align-items: center;
+	position: fixed;
+	z-index: 1;
+	width: 100%;
+	height: 69px;
+	border-bottom: 1px solid seashell;
+}
+
+.logo {
+	display: flex;
+	align-items: center;
+	flex-grow: 1;
+	margin-left: 10px;
+}
+
+.logo img {
+ 
+  height: 50px;
+ 
+}
+
+header nav {
+	padding-right: 10px;
+}
+
+header nav a {
+	text-decoration: underline;
+}
+
+nav span {
+	display: inline-block;
+	padding: 0px 10px;
+}
+
 
 /* Hero */
 
+.content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.hero {
+	background-image: url('../images/img-mission-background.jpg');
+	height: 700px;
+	width: 1200px;
+}
+
+.mission {
+	margin-top: 350px;
+	padding: 10px 0px;
+	
+}
+
+.mission h2 {
+	padding-bottom: 15px;
+
+}
+
 /* Tea of the Month */
+
+.tea-of-the-month {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	width: 1000px;
+}
+
+
+.tea-name img {
+	height: 200px;
+	width: 300px;
+}
+
 
 /* Locations */
 
