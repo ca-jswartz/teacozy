@@ -2,7 +2,7 @@
 * {
 	font-family: Helvetica, Arial, sans-serif;
 	color: seashell;
-	text-align: center;
+	
 }
 
 h2,
@@ -14,6 +14,7 @@ h4 {
 
 body {
 	margin: 0;
+	text-align: center;
 	background-color: black;
 	font-size: 22px;
 }
