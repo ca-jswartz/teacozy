@@ -2,7 +2,6 @@
 * {
 	font-family: Helvetica, Arial, sans-serif;
 	color: seashell;
-	
 }
 
 h2,
@@ -63,7 +62,7 @@ nav span {
 	margin: 0 auto;
 }
 
-/* Hero (Mission */
+/* Hero (Mission) */
 
 #mission {
 	background-image: url('../images/img-mission-background.jpg');
@@ -130,7 +129,6 @@ nav span {
   	justify-content: center;
   	background-color: black;
 }
-
 
 /* Contact */
 
