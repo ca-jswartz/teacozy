@@ -4,24 +4,29 @@
 	font-size: 22px;
 	color: seashell;
 	background-color: black;
-	opacity: 0.9;
 	text-align: center;
 }
 
 h2,
+h3,
 h4 {
-	padding: 0px;
 	margin: 0px;
+	padding: 10px;
 }
 
 body {
 	margin: 0;
 }
 
+.flexbox {
+  	display: flex;
+  	justify-content: center;
+  	flex-wrap: wrap;
+}
+
 /* Header */ 
 
 header {
-	display: flex;
 	align-items: center;
 	position: fixed;
 	z-index: 1;
@@ -38,8 +43,8 @@ header {
 }
 
 .logo img {
- 
-  height: 50px;
+  	height: 50px;
+  	padding-left: 10px;
  
 }
 
@@ -53,55 +58,99 @@ header nav a {
 
 nav span {
 	display: inline-block;
-	padding: 0px 10px;
+	padding: 10px;
 }
 
 
-/* Hero */
+/* Content Container */
 
 .content {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+	padding-top: 69px;
+	opacity: 0.9;
+	width: 1200px;
+	margin: 0 auto;
 }
 
-.hero {
+/* Hero (Mission */
+
+#mission {
 	background-image: url('../images/img-mission-background.jpg');
 	height: 700px;
-	width: 1200px;
+	padding-top: 70px;
 }
 
-.mission {
-	margin-top: 350px;
-	padding: 10px 0px;
-	
+#mission .hero {
+	margin: auto;
+	width: 100%;
 }
 
-.mission h2 {
-	padding-bottom: 15px;
+/* Store (Tea of the Month) */
 
-}
-
-/* Tea of the Month */
-
-.tea-of-the-month {
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;
+#store {
 	width: 1000px;
+	height: 700px;
+	margin: 0 auto;
+	padding-top: 70px;
 }
 
+.product {
+	padding: 5px;
+}
 
-.tea-name img {
+.product img {
 	height: 200px;
 	width: 300px;
+	display: block;
+	margin: 10px;
 }
 
+.product span {
+  	display: block;
+  	padding: 5px;
+  	font-weight: bold;
+  	text-align: center;
+}
 
 /* Locations */
 
+#locations {
+	background-image: url("../images/img-locations-background.jpg");
+	height: 500px;
+	padding-top: 70px;
+}
+
+#locations .flexbox {
+  	margin: auto;
+  	width: 1100px;
+}
+
+.location {
+  	padding-top: 5px;
+}
+
+.flexbox.locations {
+  	padding-top: 5px;
+}
+
+.location {
+  	opacity: 1.0;
+  	padding: 10px;
+  	margin: 5px 20px;
+  	flex-basis: 280px;
+  	display: flex;
+  	flex-direction: column;
+  	justify-content: center;
+}
+
 /* Contact */
 
+#contact {
+	height: 200px;
+}
+
 /* Footer */
+
+footer {
+	text-align: left;
+	padding-left: 20px;
+}
