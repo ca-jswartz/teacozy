@@ -1,7 +1,6 @@
 /* Universal Styles */
 * {
 	font-family: Helvetica, Arial, sans-serif;
-	font-size: 22px;
 	color: seashell;
 	text-align: center;
 }
@@ -16,6 +15,7 @@ h4 {
 body {
 	margin: 0;
 	background-color: black;
+	font-size: 22px;
 }
 
 .flexbox {
@@ -83,6 +83,7 @@ nav span {
 #mission .hero {
 	margin: auto;
 	width: 100%;
+	background-color: black;
 }
 
 /* Store (Tea of the Month) */
